@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 
-with open('random_forest_model.pkl', 'rb') as file:
+with open('glassproject/random_forest_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 
